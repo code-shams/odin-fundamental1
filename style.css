@@ -76,7 +76,7 @@ nav {
 }
 .cards-section {
     margin-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .card-header {
     color: #1f2937;
@@ -105,4 +105,26 @@ nav {
     font-weight: 700;
     text-align: center;
     width: 25%;
+}
+
+.quote-container {
+    background: #e5e7eb;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.quote {
+    width: 50%;
+}
+.quote p:first-child {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 200;
+}
+
+.quote p:nth-child(2) {
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
